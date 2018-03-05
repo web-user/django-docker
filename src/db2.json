@@ -1,0 +1,50 @@
+/usr/local/lib/python3.5/site-packages/psycopg2/__init__.py:144: UserWarning: The psycopg2 wheel package will be renamed from release 2.8; in order to keep installing from binary please use "pip install psycopg2-binary" instead. For details see: <http://initd.org/psycopg/docs/install.html#binary-install-from-pypi>.
+  """)
+[
+{
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$100000$MjOfoDhTp5xt$lyoap8pP5dHg80pj+Hpr62TgALImFJShOR4grb6sJNI=",
+        "last_login": "2018-03-05T09:33:55.336Z",
+        "is_superuser": true,
+        "username": "admin",
+        "first_name": "",
+        "last_name": "",
+        "email": "pivnychenko.light.it@gmail.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2018-03-05T09:33:09.977Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "ube6bzbrkzbkqxcwob3xqaxkqxl5hay3",
+    "fields": {
+        "session_data": "OGFmOTk5YzUzZDJiZTA2NjhjYzA3NGRkNTNmNjVlMzRmMDMzOGRkNjp7Il9hdXRoX3VzZXJfYmFja2VuZCI6ImRqYW5nby5jb250cmliLmF1dGguYmFja2VuZHMuTW9kZWxCYWNrZW5kIiwiX2F1dGhfdXNlcl9oYXNoIjoiNTkyNTJhZjFhNmIwOGNkZWIwYzU1Y2M4Y2Y3MmIwNWQ4NjRlZmExZCIsIl9hdXRoX3VzZXJfaWQiOiIxIn0=",
+        "expire_date": "2018-03-19T09:33:55.343Z"
+    }
+},
+{
+    "model": "todo.project",
+    "pk": 1,
+    "fields": {
+        "title": "sert",
+        "color": "#000000"
+    }
+},
+{
+    "model": "todo.todo",
+    "pk": 1,
+    "fields": {
+        "project": 1,
+        "title": "Geolocation API Demo",
+        "todo_priority": "low",
+        "date_todo": "2018-03-21",
+        "completed_tasks": false,
+        "album_logo": ""
+    }
+}
+]

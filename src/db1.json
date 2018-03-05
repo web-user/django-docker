@@ -1,0 +1,376 @@
+[
+{
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$100000$OdqcK0vyoUaY$8Tcj/UCXGrB1zRcdtJfZY78QrgZ3oFE2GhgOc5unFwM=",
+        "last_login": "2018-03-02T15:29:43.825Z",
+        "is_superuser": true,
+        "username": "admin",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2018-01-24T07:43:26.951Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 2,
+    "fields": {
+        "password": "pbkdf2_sha256$100000$bTMmbP8Gpglc$XHhTGu2Qbq9CvPKgeAfyFOJDr7KhlyfRVYbyO8vha5Q=",
+        "last_login": "2018-01-26T08:47:33.454Z",
+        "is_superuser": false,
+        "username": "vasa",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2018-01-26T08:47:13.870Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 3,
+    "fields": {
+        "password": "pbkdf2_sha256$100000$c94ePEihrtZM$iZaMZ1/GTm6TOEGlePS8Mfu7p09oL98TiVof1I/eUiU=",
+        "last_login": "2018-01-26T08:49:21.457Z",
+        "is_superuser": false,
+        "username": "Ivan",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2018-01-26T08:49:21.086Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "1utv41c4ps46t2l6erymu0ef1esl19cc",
+    "fields": {
+        "session_data": "NDNhMGIyMDkzZmYzMTU4MTgwMDQ1YWNjOGQxMjY2NDUyOTUxNjMyYTp7fQ==",
+        "expire_date": "2018-02-08T13:50:44.741Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "2qkbq0dezrvu4btdxsbf6rfyo6edtzye",
+    "fields": {
+        "session_data": "NDNhMGIyMDkzZmYzMTU4MTgwMDQ1YWNjOGQxMjY2NDUyOTUxNjMyYTp7fQ==",
+        "expire_date": "2018-02-09T08:01:27.082Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "8durzzvumdnqhgb0d9h5n62aksf7nild",
+    "fields": {
+        "session_data": "NDNhMGIyMDkzZmYzMTU4MTgwMDQ1YWNjOGQxMjY2NDUyOTUxNjMyYTp7fQ==",
+        "expire_date": "2018-02-09T08:02:22.428Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "91nx1wcqfpz26cj81mguir2vpdavc35b",
+    "fields": {
+        "session_data": "NDNhMGIyMDkzZmYzMTU4MTgwMDQ1YWNjOGQxMjY2NDUyOTUxNjMyYTp7fQ==",
+        "expire_date": "2018-02-09T07:57:26.327Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "l9uuh3mbwxnazwcmcdfi8vd668n5sydg",
+    "fields": {
+        "session_data": "YTU1NzRhZDkxZTBmNmUxZjUyZWE2YmVmNmM2YjkyZmQ5ZGIyMGY4Zjp7Il9hdXRoX3VzZXJfaGFzaCI6ImY4MDEyNTAwZGU3NzBhZDFmNTQ4YmM5ZTY0NzQyYjM1OThkMGEwMDciLCJfYXV0aF91c2VyX2lkIjoiMSIsIl9hdXRoX3VzZXJfYmFja2VuZCI6ImRqYW5nby5jb250cmliLmF1dGguYmFja2VuZHMuTW9kZWxCYWNrZW5kIn0=",
+        "expire_date": "2018-02-26T14:17:26.570Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "wngk3ff43hc350097po2ynm6kuteay3b",
+    "fields": {
+        "session_data": "NDNhMGIyMDkzZmYzMTU4MTgwMDQ1YWNjOGQxMjY2NDUyOTUxNjMyYTp7fQ==",
+        "expire_date": "2018-02-09T07:58:17.853Z"
+    }
+},
+{
+    "model": "todo.post",
+    "pk": 1,
+    "fields": {
+        "title": "My Post",
+        "slug": "df",
+        "author": 1,
+        "body": "Post neeew",
+        "publish": "2018-01-24T10:47:12Z",
+        "created": "2018-01-24T10:47:52.590Z",
+        "updated": "2018-01-24T10:47:52.590Z",
+        "status": "published"
+    }
+},
+{
+    "model": "todo.post",
+    "pk": 2,
+    "fields": {
+        "title": "Welcom to Django",
+        "slug": "Welcom",
+        "author": 1,
+        "body": "Welcom to Django Lorem ipsun",
+        "publish": "2018-01-25T14:20:29Z",
+        "created": "2018-01-25T14:24:03.229Z",
+        "updated": "2018-01-25T14:24:17.259Z",
+        "status": "published"
+    }
+},
+{
+    "model": "todo.project",
+    "pk": 18,
+    "fields": {
+        "title": "ty",
+        "color": "#000000"
+    }
+},
+{
+    "model": "todo.project",
+    "pk": 20,
+    "fields": {
+        "title": "bbb",
+        "color": "#000000"
+    }
+},
+{
+    "model": "todo.project",
+    "pk": 39,
+    "fields": {
+        "title": "DFDFDF",
+        "color": "#000000"
+    }
+},
+{
+    "model": "todo.project",
+    "pk": 40,
+    "fields": {
+        "title": "Id wp",
+        "color": "#ff0000"
+    }
+},
+{
+    "model": "todo.project",
+    "pk": 47,
+    "fields": {
+        "title": "Wer",
+        "color": "#000000"
+    }
+},
+{
+    "model": "todo.todo",
+    "pk": 23,
+    "fields": {
+        "project": 39,
+        "title": "Today yyy",
+        "todo_priority": "low",
+        "date_todo": "2018-02-08",
+        "completed_tasks": true,
+        "album_logo": ""
+    }
+},
+{
+    "model": "todo.todo",
+    "pk": 37,
+    "fields": {
+        "project": 40,
+        "title": "Geolocation API Demo",
+        "todo_priority": "high",
+        "date_todo": "2018-02-09",
+        "completed_tasks": true,
+        "album_logo": ""
+    }
+},
+{
+    "model": "todo.todo",
+    "pk": 40,
+    "fields": {
+        "project": 20,
+        "title": "vvvooo19",
+        "todo_priority": "medium",
+        "date_todo": "2018-02-12",
+        "completed_tasks": false,
+        "album_logo": "frame.jpg"
+    }
+},
+{
+    "model": "todo.todo",
+    "pk": 42,
+    "fields": {
+        "project": 18,
+        "title": "\u0415\u0443\u044b\u0435 \u044b\u0432\u0430",
+        "todo_priority": "high",
+        "date_todo": "2018-02-12",
+        "completed_tasks": false,
+        "album_logo": "mask.png"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2018-01-24T10:47:52.592Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "1",
+        "object_repr": "My Post",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2018-01-25T14:24:03.231Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "2",
+        "object_repr": "Welcom to Django",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2018-01-25T14:24:17.260Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "2",
+        "object_repr": "Welcom to Django",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"body\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2018-02-05T09:20:36.704Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "4",
+        "object_repr": "ERTET",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2018-02-07T13:02:25.084Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "22",
+        "object_repr": "My Post",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2018-02-09T07:50:28.967Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "24",
+        "object_repr": "BYR day",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"completed_tasks\", \"album_logo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2018-02-09T14:04:14.957Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "27",
+        "object_repr": "4rtyrtyrty",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2018-02-12T07:47:27.633Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "39",
+        "object_repr": "My Post",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2018-02-12T12:49:34.157Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "40",
+        "object_repr": "vvvooo19",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2018-02-12T12:50:34.627Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "41",
+        "object_repr": "rty",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+        "action_time": "2018-02-12T12:51:11.554Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "42",
+        "object_repr": "\u0415\u0443\u044b\u0435 \u044b\u0432\u0430",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+        "action_time": "2018-02-12T12:51:30.928Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "43",
+        "object_repr": "Bbbc",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+}
+]

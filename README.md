@@ -40,3 +40,15 @@
 
 
 ```docker-compose up```
+
+docker ps
+
+docker stats djangotodo_web_1
+
+Qwerty12345
+
+makemigrations todo
+
+docker-compose run web python src/manage.py migrate
+
+docker-compose run web src/manage.py dumpdata --exclude auth.permission --exclude contenttypes --indent 4 > db_psg.json
