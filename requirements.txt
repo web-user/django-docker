@@ -7,3 +7,4 @@ pytz
 six
 psycopg2
 django-filter
+psycopg2-binary
