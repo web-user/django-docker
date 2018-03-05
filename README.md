@@ -52,3 +52,10 @@ makemigrations todo
 docker-compose run web python src/manage.py migrate
 
 docker-compose run web src/manage.py dumpdata --exclude auth.permission --exclude contenttypes --indent 4 > db_psg.json
+
+
+docker-compose run --rm db psql -h db -U postgres postgres
+
+ EXPORT: docker-compose run --rm db pg_dump -h db -U postgres postgres > database.sql
+
+ IMPORT: docker-compose run --rm db psql -h db -U postgres postgres < database.sql
