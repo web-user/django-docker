@@ -146,5 +146,5 @@ class TodoDelete(DeleteView):
 
 class TodoUpdate(UpdateView):
     model = Todo
-    fields = ['title', 'completed_tasks']
+    fields = ['title', 'completed_tasks', 'todo_priority']
     success_url = reverse_lazy('todo:home')

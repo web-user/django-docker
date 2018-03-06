@@ -42,6 +42,7 @@
                                           method="post">
                                         <input type="hidden" name="completed_tasks" value="True">
                                         <input type="hidden" class="form-control" name="title" value="{{todo.title}}">
+                                        <input type="hidden" class="form-control" name="todo_priority" value="{{todo.todo_priority}}">
                                         <input type="submit" value="Completed"/>
                                     </form>
 
@@ -56,7 +57,7 @@
                             <div class="modal-dialog" role="document">
                                 <div class="modal-content">
 
-                                    <form action="{% url 'todo:todo_update' todo.id %}" method="post">
+                                    <form class="edit-form-id" action="{% url 'todo:todo_update' todo.id %}" method="post">
                                         <div class="modal-header">
                                             <h5 class="modal-title" id="todo_{{todo.id}}_Title">Modal title {{todo.id}}</h5>
                                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -72,6 +73,20 @@
                                                 <label>Color</label>
                                                 <input type="text" class="form-control" name="color" value="">
                                             </div>
+
+                                            <div class="form-group">
+                                                {{todo.todo_priority}}
+                                                <select name="todo_priority" id="{{todo.id}}">
+                                                    <option value="high" {% if todo.todo_priority == "high" %} selected {% endif %}>High Priority</option>
+
+                                                    <option value="medium" {% if todo.todo_priority == "medium" %} selected {% endif %}>Medium Priority</option>
+
+                                                    <option value="low" {% if todo.todo_priority == "low" %} selected {% endif %}>Low Priority</option>
+
+                                                </select>
+                                            </div>
+
+
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>

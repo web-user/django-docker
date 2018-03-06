@@ -125,7 +125,21 @@ jQuery(document).ready(function ($) {
                         clone.find(".todo-title").text(person.title);
                         clone.find(".project-title").text(person.project_title);
                         clone.find(".project-color").text(person.color);
+                        clone.find(".delete-id").attr('data-id', person.id);
 
+                        clone.find(".delete-form-content").attr('action', '/todo/' + person.id + '/delete/');
+
+                        clone.find(".edit-id-modal").attr('data-target', '#todo_' + person.id);
+
+                        clone.find(".modal.fade").attr('id', 'todo_' + person.id);
+
+                        clone.find(".edit-form-todo").attr('action', '/todo/' + person.id + '/update/');
+
+                        clone.find(".title-todo").attr('value', person.title);
+
+
+
+                        console.log(person)
 
                         $("#sortable").prepend(clone);
                     }
@@ -157,6 +171,7 @@ jQuery(document).ready(function ($) {
                         clone.find(".todo-title").text(person.title);
                         clone.find(".project-title").text(person.project_title);
                         clone.find(".project-color").text(person.color);
+                        clone.find(".delete-form-content delete-id").data('id', person.id);
 
 
                         $("#sortable").prepend(clone);
@@ -216,6 +231,7 @@ jQuery(document).ready(function ($) {
                         clone.find(".todo-title").text(person.title);
                         clone.find(".project-title").text(person.project_title);
                         clone.find(".project-color").text(person.color);
+                        clone.find(".delete-form-content delete-id").data('id', person.id);
 
 
                         $("#sortable").prepend(clone);

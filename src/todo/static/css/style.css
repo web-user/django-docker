@@ -1075,3 +1075,29 @@ menu > ul:before,menu > ul:after {
 .fail {
   color: red;
 }
+
+#sortable .modal.fade .modal-content{
+    float: none;
+}
+
+.list-todo .modal.fade .modal-dialog .modal-content{
+    float: none!important;
+}
+
+.list-todo .modal.fade .modal-dialog{
+    float: none!important;
+}
+
+.list-todo .modal.fade .modal-dialog .modal-body, .list-todo .modal.fade .modal-dialog .modal-header{
+    float: none!important;
+}
+
+
+.list-todo .modal.fade .modal-dialog .modal-body, .list-todo .modal.fade .modal-dialog .form-group{
+    float: none!important;
+}
+
+#sortable .modal.fade .modal-dialog input{
+    width: 100%;
+}
+
