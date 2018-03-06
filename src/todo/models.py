@@ -54,7 +54,7 @@ class Todo(models.Model):
     )
     project = models.ForeignKey(Project, on_delete=models.CASCADE, related_name='todos')
     title = models.CharField(max_length=250)
-    todo_priority = models.CharField(max_length=250, choices=PRIORIT_CHOICES, default='high')
+    todo_priority = models.CharField(max_length=10, choices=PRIORIT_CHOICES, default='high')
     date_todo = models.DateField()
     completed_tasks = models.BooleanField(default=False)
     album_logo = models.FileField()
