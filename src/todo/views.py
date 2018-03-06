@@ -28,7 +28,6 @@ from django.contrib import messages
 
 import json
 
-IMAGE_FILE_TYPES = ['png', 'jpg', 'jpeg']
 
 
 class TodoListAPI(generics.ListAPIView):
