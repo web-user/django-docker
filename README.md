@@ -47,6 +47,8 @@ docker stats djangotodo_web_1
 
 Qwerty12345
 
+docker-compose run web python src/manage.py test
+
 makemigrations todo
 
 docker-compose run web python src/manage.py migrate
